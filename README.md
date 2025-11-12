@@ -1,3 +1,17 @@
-# Assignment 1: Web App
-My name is Brielle-Chxn, and this is my first web app assignment.
-# My-first-web-project
+
+
+
+# 👋 Welcome to [Brielle Small Project]
+
+> โปรเจกต์นี้จัดทำขึ้นเพื่อเป็นส่วนหนึ่งของวิชาWeb Application Development  โดยมีเป้าหมายคือ [สร้างเว็บให้พอได้]
+
+---
+
+## 🙋‍♀️ About Me
+
+สวัสดีค่ะ! ดิฉัน ชื่อ **[ปาริชาติ ขัติยศ]**
+
+* **รหัสประจำตัว:** [67024818]
+* **คณะ/สาขา:** [ICT/CS]
+* **Year:** [2]
+
