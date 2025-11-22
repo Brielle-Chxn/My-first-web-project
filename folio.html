@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #faf9f5;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #da7756;
+            color: #faf9f5;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #da7756;
+        }
+
+        h2 {
+            color: #da7756;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #faf9f5;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background-color: #da7756;
+            color: #faf9f5;
+            padding: 10px 15px;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: 500;
+            transition: transform 0.2s;
+        }
+
+        .skill-tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(218, 119, 86, 0.3);
+        }
+
+        .languages-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .language-item {
+            flex: 1;
+            min-width: 200px;
+            padding: 15px;
+            background-color: #faf9f5;
+            border-radius: 8px;
+            border: 2px solid #da7756;
+        }
+
+        .language-name {
+            font-weight: 600;
+            color: #da7756;
+            font-size: 1.1em;
+        }
+
+        .education-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #faf9f5;
+            border-radius: 8px;
+        }
+
+        .education-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .degree {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        .institution {
+            color: #da7756;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .gpa {
+            display: inline-block;
+            background-color: #da7756;
+            color: #faf9f5;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+
+        .achievement-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #faf9f5;
+            border-radius: 8px;
+            border-left: 3px solid #da7756;
+        }
+
+        .achievement-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .achievement-title {
+            font-weight: 600;
+            font-size: 1.15em;
+            color: #000000;
+            margin-bottom: 8px;
+        }
+
+        .achievement-description {
+            color: #333;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Parichat Kattiyot</h1>
+            <p class="subtitle">Second-year Computer Science student</p>
+        </header>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">Massage</div>
+                <div class="skill-tag">Management</div>
+                <div class="skill-tag">Finance</div>
+                <div class="skill-tag">Python</div>
+                <div class="skill-tag">UI/UX Design</div>
+                <div class="skill-tag">Git</div>
+                <div class="skill-tag">HTML</div>
+                <div class="skill-tag">Architectural Design</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <div class="languages-list">
+                <div class="language-item">
+                    <div class="language-name">Thai</div>
+                    <div>Native Speaker</div>
+                </div>
+                <div class="language-item">
+                    <div class="language-name">English</div>
+                    <div>Professional Proficiency</div>
+                </div>
+                <div class="language-item">
+                    <div class="language-name">Mandarin Chinese</div>
+                    <div>Conversational</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="degree">Bachelor of Science in Computer Science</div>
+                <div class="institution">University of Phayao</div>
+                <div>2024 - 2028</div>
+                <span class="gpa">GPA: 3.X/4.0</span>
+            </div>
+        
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="achievement-item">
+                <div class="achievement-title">📱App design</div>
+                <div class="achievement-description">
+                    I also have experience in designing mobile applications and websites.
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-title">📌 Mobile App Projects</div>
+                <div class="achievement-description">
+                    I was part of a project team developing a location-specific flood alert application.
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-title">📝 Architectural Design for Residential Projects</div>
+                <div class="achievement-description">
+                    Strong interest in residential design and drafting, which I pursue as a personal hobby. Occasionally, I have had the opportunity to apply my skills in practical projects.
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-title">💼 Finance and tax management</div>
+                <div class="achievement-description">
+                    My responsibilities involve financial and tax-related tasks. I started filing taxes on my own at the age of 14 and have managed my household finances, including income and expenses, for three years.
+
+                </div>
+            </div>
+        </div>
+        <footer style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; background-color: #faf9f5 ;">
+            <div class="footer-title" style="font-size: 1.5rem; margin-bottom: 10px;">My Contact</div>
+            <div class="contact-links" style="display: flex; gap: 10px;">
+                <a href="https://github.com/Brielle-Chxn" target="_blank" style="display: flex; align-items: center; gap: 5px; padding: 10px 15px; border: 2px solid #da7756; border-radius: 8px; text-decoration: none; color: #da7756;">
+            <span class="icon">⚡</span>
+            <span>GitHub</span>
+        </a>
+    </div>
+        </footer>
+
+    </div>
+</body>
+</html>
